@@ -35,10 +35,10 @@ var swiper = new Swiper(".slide-content", {
     0: {
       slidesPerView: 1,
     },
-    480: {
+    520: {
       slidesPerView: 2,
     },
-    920: {
+    950: {
       slidesPerView: 3,
     },
   },
