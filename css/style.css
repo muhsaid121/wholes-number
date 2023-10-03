@@ -81,8 +81,8 @@ body {
 
 /*sliding-card*/
 .slide h2 {
-  font-size: 2.6rem;
-  padding: 2rem;
+  font-size: 2.2rem;
+  padding: 2rem 2rem 3rem 2rem;
 }
 .slide {
   min-height: 100vh;
@@ -95,7 +95,7 @@ body {
 .slide .slide-container {
   max-width: 1120px;
   width: 100%;
-  padding: 30px;
+  padding: 30px 30px 40px 30px;
 }
 .slide .card-image {
   position: relative;
