@@ -80,8 +80,20 @@ body {
 }
 
 /*sliding-card*/
+.judul {
+  min-height: 15vh;
+  display: flex;
+  align-items: bottom;
+  justify-content: left;
+  background-color: var(--bg);
+}
+.judul h2 {
+  font-size: 2.4rem;
+  padding-left: 2rem;
+  padding-top: 5rem;
+}
 .slide {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
