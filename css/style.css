@@ -325,12 +325,13 @@ footer {
   width: 100%;
   position: relative;
   bottom: 0;
-  background: linear-gradient(to right, #00093c, #2d0b00);
+  background: linear-gradient(to bottom, #121317, #060606);
   color: #fff;
-  padding: 100px 0 30px;
-  border-top-left-radius: 100px;
+  padding: 60px 0 30px;
+  border-top-left-radius: 20px;
   font-size: 13px;
   line-height: 20px;
+  margin-top: 8rem;
 }
 .row {
   width: 85%;
