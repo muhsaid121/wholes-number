@@ -206,32 +206,32 @@ body {
   background: #d2aa83;
 }
 .slide .swiper-navBtn,
-.sliding .swiper-navBtn2 {
+.sliding .swiper-navBtn {
   color: var(--primary);
   transition: color 0.3s ease;
 }
 .slide .swiper-navBtn:hover,
-.sliding .swiper-navBtn2:hover {
+.sliding .swiper-navBtn:hover {
   color: #d2aa83;
 }
 .slide .swiper-navBtn::before,
 .slide .swiper-navBtn::after,
-.sliding .swiper-navBtn2::before,
-.sliding .swiper-navBtn2::after {
+.sliding .swiper-navBtn::before,
+.sliding .swiper-navBtn::after {
   font-size: 40px;
 }
 .slide .swiper-button-next,
-.sliding .swiper-button-next2 {
+.sliding .swiper-button-next {
   right: 0;
 }
 
 .slide .swiper-button-prev,
-.sliding .swiper-button-prev2 {
+.sliding .swiper-button-prev {
   left: 0;
 }
 .slide .swiper-pagination-bullet,
 .sliding .swiper-pagination-bullet {
-  background-color: rgb(185, 176, 119);
+  background-color: #d2aa83;
   opacity: 1;
 }
 .slide .swiper-pagination-bullet-active,
@@ -269,6 +269,13 @@ body {
 .sliding .overlay::after {
   border-radius: 0 25px 0 0;
   background-color: #fff;
+}
+
+.slide .media-icons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #680e2c;
 }
 
 /*Hero section*/
@@ -352,12 +359,13 @@ footer {
 }
 .col {
   flex-basis: 25%;
-  padding: 10px;
+  padding: 5px;
 }
 .col:nth-child(2),
 .col:nth-child(3) {
   flex-basis: 15%;
 }
+
 .logo {
   width: 100px;
   margin-bottom: 30px;
@@ -366,6 +374,10 @@ footer {
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
+  color: var(--primary);
+}
+.col h4 span {
+  color: var(--primary);
 }
 .email-id {
   width: fit-content;
@@ -410,7 +422,7 @@ form button .submit {
   color: #ccc;
 }
 footer.social-icons {
-  padding: 1rem, 0;
+  padding: 0.5rem, 0;
 }
 footer .social-icons a {
   color: #fff;
@@ -474,6 +486,9 @@ hr {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
+  footer .social-icons .size-25 {
+    width: 15px;
+  }
 
   .slide .slide-container h2 {
     font-size: 2rem;
@@ -492,7 +507,7 @@ hr {
     margin: 0 10px;
   }
   .slide .swiper-navBtn,
-  .sliding .swiper-navBtn2 {
+  .sliding .swiper-navBtn {
     display: none;
   }
 }

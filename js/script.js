@@ -59,8 +59,8 @@ var swiper = new Swiper(".slide-konten", {
     dynamicBullets: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next2",
-    prevEl: ".swiper-button-prev2",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   breakpoints: {
     0: {

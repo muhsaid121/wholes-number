@@ -19,6 +19,14 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <!-- feater icon -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Navbar strat-->
@@ -27,12 +35,12 @@
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#slide">Materi Pembelajaran</a>
-        <a href="#galery">Galeri Pembelajaran</a>
+        <a href="#sliding">Galeri Pembelajaran</a>
       </div>
 
       <div class="navbar-extra">
         <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="log-in"><i data-feather="log-in"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
@@ -58,6 +66,10 @@
                 <div class="card-image">
                   <img src="img/img1.jpg" alt="" class="cards-img" />
                 </div>
+                <div class="media-icons">
+                  <i class="fa fa-bullseye"></i>
+                  <h6>tujuan</h6>
+                </div>
               </div>
               <div class="card-content">
                 <h2 class="name"><span>Tujuan </span>Pembelajaran</h2>
@@ -76,6 +88,10 @@
                   <img src="img/img1.jpg" alt="" class="cards-img" />
                 </div>
               </div>
+              <div class="media-icons">
+                <i class="fa fa-book"></i>
+                <h6>materi</h6>
+              </div>
               <div class="card-content">
                 <h2 class="name"><span>Materi </span>Pembelajaran</h2>
                 <p class="description">
@@ -93,6 +109,10 @@
                   <img src="img/img1.jpg" alt="" class="cards-img" />
                 </div>
               </div>
+              <div class="media-icons">
+                <i class="fab fa-youtube"></i>
+                <h6>video</h6>
+              </div>
               <div class="card-content">
                 <h2 class="name"><span>Video </span>Pembelajaran</h2>
                 <p class="description">
@@ -109,6 +129,10 @@
                 <div class="card-image">
                   <img src="img/img1.jpg" alt="" class="cards-img" />
                 </div>
+              </div>
+              <div class="media-icons">
+                <i class="fa fa-check-circle"></i>
+                <h6>evaluasi</h6>
               </div>
               <div class="card-content">
                 <h2 class="name"><span>Evaluasi </span>Pembelajaran</h2>
@@ -128,12 +152,17 @@
                   <img src="img/img1.jpg" alt="" class="cards-img" />
                 </div>
               </div>
+              <div class="media-icons">
+                <i class="fa fa-download"></i>
+                <h6>unduh</h6>
+              </div>
               <div class="card-content">
-                <h2 class="name">Video Pembelajaran</h2>
+                <h2 class="name"><span>Unduh </span>Perangkat</h2>
                 <p class="description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  ipsum fuga quidem explicabo deleniti eveniet perspiciatis
-                  dolore illum beatae? Fugit.
+                  Unduh perangkat di digunakan untuk berbagi perangkat ajar yang
+                  digunakan. Perangkat dapat diakses secara terbatas. Untuk
+                  akses penuh silahkan menghubungi kontak admin web
+                  eduClass<span>470.com</span>
                 </p>
                 <button class="button">Lihat Detail</button>
               </div>
@@ -241,8 +270,8 @@
             </div>
           </div>
         </div>
-        <div class="swiper-button-next2 swiper-navBtn2"></div>
-        <div class="swiper-button-prev2 swiper-navBtn2"></div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination2"></div>
       </div>
       <script src="js/swiper-bundle.min.js"></script>
@@ -254,11 +283,10 @@
       <div class="row">
         <div class="col">
           <img src="img/logo.png" class="logo" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-            voluptatem a laboriosam eius autem enim quia blanditiis libero est
-            ipsum.
-          </p>
+          <h4>
+            eduClass<span>470.com</span> hadir sebagai media pembelajaran dengan
+            tagline <span>Mudah | Cepat | Menyenangkan</span>.
+          </h4>
         </div>
         <div class="col">
           <h3>Hubungi Kami</h3>
@@ -285,9 +313,9 @@
             </button>
           </form>
           <div class="social-icons">
-            <a href="#"><i data-feather="instagram"></i></a>
-            <a href="#"><i data-feather="twitter"></i></a>
-            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i class="size-25" data-feather="instagram"></i></a>
+            <a href="#"><i class="size-25" data-feather="twitter"></i></a>
+            <a href="#"><i class="size-25" data-feather="facebook"></i></a>
           </div>
         </div>
       </div>
