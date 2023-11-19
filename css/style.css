@@ -146,7 +146,7 @@ body {
 }
 .slide .slide-content,
 .sliding .slide-konten {
-  margin: 0 40px;
+  margin: 0 20px;
   overflow: hidden;
   border-radius: 25px;
 }
